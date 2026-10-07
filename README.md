@@ -1,3 +1,5 @@
-## Hi there 👋
-<img width="835" height="417" alt="Image" src="https://github.com/user-attachments/assets/a841d429-c07a-4245-b41b-409268c7604a" />
+   # replace manaspl707-pixel with your own username
+        gh repo create manaspl707-pixel --public --clone
+        cd manaspl707-pixel
+        mkdir -p scripts data .github/workflows
 

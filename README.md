@@ -1,31 +1,33 @@
 <div align="center">
 
-<h3><code>manas@github ~ $ ./contributions.sh</code></h3>
+<h2>
+<code>manas@github ~ $ ./contributions.sh</code>
+</h2>
 
-<br>
+<img src="./contrib-heatmap.svg" width="860" />
 
-<!-- Animated contribution graph will go here -->
+<br><br>
 
-<h3><code>manas@github ~ $ whoami</code></h3>
-
-<br>
+<h2>
+<code>manas@github ~ $ whoami</code>
+</h2>
 
 <table>
 <tr>
+
 <td valign="top">
 
-<!-- ASCII portrait -->
+<img src="./manas-ascii.svg" width="370" />
 
 </td>
 
 <td valign="top">
 
-<!-- Information card -->
+<img src="./info-card.svg" width="490" />
 
 </td>
+
 </tr>
 </table>
 
-</div>   
-        
-
+</div>

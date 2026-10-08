@@ -1,1 +1,342 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="490"
+height="430"
+viewBox="0 0 490 430">
 
+<defs>
+
+    <linearGradient id="bg"
+        x1="0" y1="0"
+        x2="1" y2="1">
+
+        <stop offset="0%"
+              stop-color="#151515"/>
+
+        <stop offset="100%"
+              stop-color="#080808"/>
+
+    </linearGradient>
+
+</defs>
+
+<!-- Card -->
+<rect
+    x="1"
+    y="1"
+    width="488"
+    height="428"
+    rx="12"
+    fill="url(#bg)"
+    stroke="#333"
+    stroke-width="2"
+/>
+
+<!-- Terminal header -->
+
+<rect
+    x="0"
+    y="0"
+    width="490"
+    height="42"
+    rx="12"
+    fill="#1b1b1b"
+/>
+
+<circle cx="20" cy="21"
+        r="5"
+        fill="#ff5f56"/>
+
+<circle cx="38" cy="21"
+        r="5"
+        fill="#ffbd2e"/>
+
+<circle cx="56" cy="21"
+        r="5"
+        fill="#27c93f"/>
+
+<text
+    x="78"
+    y="26"
+    font-family="monospace"
+    font-size="13"
+    fill="#aaa">
+
+manas@github:~$
+
+</text>
+
+<!-- Title -->
+
+<text
+    x="25"
+    y="78"
+    font-family="monospace"
+    font-size="18"
+    font-weight="bold"
+    fill="#ffffff">
+
+manas@github
+
+</text>
+
+<text
+    x="25"
+    y="102"
+    font-family="monospace"
+    font-size="13"
+    fill="#777">
+
+whoami
+
+</text>
+
+<text
+    x="28"
+    y="135"
+    font-family="monospace"
+    font-size="13"
+    fill="#777">
+
+user
+
+</text>
+
+<text
+    x="145"
+    y="135"
+    font-family="monospace"
+    font-size="13"
+    fill="#eeeeee">
+
+manas
+
+</text>
+
+<text
+    x="28"
+    y="162"
+    font-family="monospace"
+    font-size="13"
+    fill="#777">
+
+role
+
+</text>
+
+<text
+    x="145"
+    y="162"
+    font-family="monospace"
+    font-size="13"
+    fill="#eeeeee">
+
+Full-Stack Developer
+
+</text>
+
+<text
+    x="28"
+    y="189"
+    font-family="monospace"
+    font-size="13"
+    fill="#777">
+
+focus
+
+</text>
+
+<text
+    x="145"
+    y="189"
+    font-family="monospace"
+    font-size="13"
+    fill="#eeeeee">
+
+Machine Learning
+
+</text>
+
+<text
+    x="28"
+    y="216"
+    font-family="monospace"
+    font-size="13"
+    fill="#777">
+
+education
+
+</text>
+
+<text
+    x="145"
+    y="216"
+    font-family="monospace"
+    font-size="13"
+    fill="#eeeeee">
+
+IIT Madras
+
+</text>
+
+<text
+    x="28"
+    y="243"
+    font-family="monospace"
+    font-size="13"
+    fill="#777">
+
+location
+
+</text>
+
+<text
+    x="145"
+    y="243"
+    font-family="monospace"
+    font-size="13"
+    fill="#eeeeee">
+
+India
+
+</text>
+
+<text
+    x="28"
+    y="270"
+    font-family="monospace"
+    font-size="13"
+    fill="#777">
+
+languages
+
+</text>
+
+<text
+    x="145"
+    y="270"
+    font-family="monospace"
+    font-size="13"
+    fill="#eeeeee">
+
+Python • JavaScript • SQL
+
+</text>
+
+<text
+    x="28"
+    y="297"
+    font-family="monospace"
+    font-size="13"
+    fill="#777">
+
+frontend
+
+</text>
+
+<text
+    x="145"
+    y="297"
+    font-family="monospace"
+    font-size="13"
+    fill="#eeeeee">
+
+React • HTML • CSS
+
+</text>
+
+<text
+    x="28"
+    y="324"
+    font-family="monospace"
+    font-size="13"
+    fill="#777">
+
+backend
+
+</text>
+
+<text
+    x="145"
+    y="324"
+    font-family="monospace"
+    font-size="13"
+    fill="#eeeeee">
+
+Node.js • Express
+
+</text>
+
+<text
+    x="28"
+    y="351"
+    font-family="monospace"
+    font-size="13"
+    fill="#777">
+
+database
+
+</text>
+
+<text
+    x="145"
+    y="351"
+    font-family="monospace"
+    font-size="13"
+    fill="#eeeeee">
+
+MongoDB • MySQL
+
+</text>
+
+<text
+    x="28"
+    y="378"
+    font-family="monospace"
+    font-size="13"
+    fill="#777">
+
+tools
+
+</text>
+
+<text
+    x="145"
+    y="378"
+    font-family="monospace"
+    font-size="13"
+    fill="#eeeeee">
+
+Git • GitHub • Docker
+
+</text>
+
+
+<!-- Bottom command -->
+
+<text
+    x="28"
+    y="405"
+    font-family="monospace"
+    font-size="12"
+    fill="#777">
+
+manas@github:~$_
+
+</text>
+
+<rect
+    x="165"
+    y="392"
+    width="7"
+    height="15"
+    fill="#eeeeee">
+
+    <animate
+        attributeName="opacity"
+        values="1;0;1"
+        dur="1s"
+        repeatCount="indefinite"/>
+
+</rect>
+
+</svg>

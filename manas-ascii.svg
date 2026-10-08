@@ -1,0 +1,2198 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+        width="760"
+        height="840"
+        viewBox="0 0 760 840">
+
+<defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#111111"/>
+        <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+
+    <filter id="glow">
+        <feGaussianBlur stdDeviation="1.4" result="blur"/>
+        <feMerge>
+            <feMergeNode in="blur"/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
+
+<rect width="100%" height="100%" rx="10" fill="url(#bg)"/>
+
+<rect x="0" y="0" width="100%" height="42"
+      fill="#191919"/>
+
+<circle cx="18" cy="21" r="5" fill="#ff5f56"/>
+<circle cx="36" cy="21" r="5" fill="#ffbd2e"/>
+<circle cx="54" cy="21" r="5" fill="#27c93f"/>
+
+<text x="75" y="26"
+      font-family="monospace"
+      font-size="13"
+      fill="#aaaaaa">
+manas@github: ~/profile
+</text>
+
+<text x="24"
+      y="64"
+      font-family="monospace"
+      font-size="14"
+      fill="#aaaaaa">
+manas@github: ~$ ./portrait.sh
+</text>
+
+<clipPath id="rowClip0">
+    <rect x="0"
+          y="72.0"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.000s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="80.39"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip0)"
+      filter="url(#glow)">
+    
+</text>
+
+<clipPath id="rowClip1">
+    <rect x="0"
+          y="81.12"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.035s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="89.51"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip1)"
+      filter="url(#glow)">
+    
+</text>
+
+<clipPath id="rowClip2">
+    <rect x="0"
+          y="90.24"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.070s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="98.63"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip2)"
+      filter="url(#glow)">
+    
+</text>
+
+<clipPath id="rowClip3">
+    <rect x="0"
+          y="99.36"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.105s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="107.75"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip3)"
+      filter="url(#glow)">
+    
+</text>
+
+<clipPath id="rowClip4">
+    <rect x="0"
+          y="108.47999999999999"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.140s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="116.87"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip4)"
+      filter="url(#glow)">
+    
+</text>
+
+<clipPath id="rowClip5">
+    <rect x="0"
+          y="117.6"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.175s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="125.99"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip5)"
+      filter="url(#glow)">
+    
+</text>
+
+<clipPath id="rowClip6">
+    <rect x="0"
+          y="126.72"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.210s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="135.11"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip6)"
+      filter="url(#glow)">
+    
+</text>
+
+<clipPath id="rowClip7">
+    <rect x="0"
+          y="135.84"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.245s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="144.23"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip7)"
+      filter="url(#glow)">
+    
+</text>
+
+<clipPath id="rowClip8">
+    <rect x="0"
+          y="144.95999999999998"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.280s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="153.35"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip8)"
+      filter="url(#glow)">
+    
+</text>
+
+<clipPath id="rowClip9">
+    <rect x="0"
+          y="154.07999999999998"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.315s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="162.47"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip9)"
+      filter="url(#glow)">
+    
+</text>
+
+<clipPath id="rowClip10">
+    <rect x="0"
+          y="163.2"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.350s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="171.59"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip10)"
+      filter="url(#glow)">
+                                                                   .:+##%%%%%%*+=--:::.
+</text>
+
+<clipPath id="rowClip11">
+    <rect x="0"
+          y="172.32"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.385s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="180.71"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip11)"
+      filter="url(#glow)">
+                                                                 -*#%@@@@@@@@@@@@@@@@@@%#*=.
+</text>
+
+<clipPath id="rowClip12">
+    <rect x="0"
+          y="181.44"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.420s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="189.83"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip12)"
+      filter="url(#glow)">
+                                                             ..-#%@@@@@@@@@@@@@@@@@@@@@@@@@%*=:
+</text>
+
+<clipPath id="rowClip13">
+    <rect x="0"
+          y="190.56"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.455s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="198.95"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip13)"
+      filter="url(#glow)">
+                                                           :+##%@@@@@@@@@@@@@@@@@@%@@%@@@@@@@@@#-
+</text>
+
+<clipPath id="rowClip14">
+    <rect x="0"
+          y="199.68"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.490s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="208.07"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip14)"
+      filter="url(#glow)">
+                                                          :#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@%%%@@%*.
+</text>
+
+<clipPath id="rowClip15">
+    <rect x="0"
+          y="208.79999999999998"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.525s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="217.19"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip15)"
+      filter="url(#glow)">
+                                                         -#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%@@@@%:
+</text>
+
+<clipPath id="rowClip16">
+    <rect x="0"
+          y="217.92"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.560s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="226.31"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip16)"
+      filter="url(#glow)">
+                                                        :#%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%@@#:
+</text>
+
+<clipPath id="rowClip17">
+    <rect x="0"
+          y="227.04"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.595s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="235.43"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip17)"
+      filter="url(#glow)">
+                                                        =*%@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@#:
+</text>
+
+<clipPath id="rowClip18">
+    <rect x="0"
+          y="236.16"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.630s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="244.55"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip18)"
+      filter="url(#glow)">
+                                                       :*%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+.
+</text>
+
+<clipPath id="rowClip19">
+    <rect x="0"
+          y="245.27999999999997"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.665s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="253.67"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip19)"
+      filter="url(#glow)">
+                                                       +%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*:
+</text>
+
+<clipPath id="rowClip20">
+    <rect x="0"
+          y="254.39999999999998"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.700s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="262.79"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip20)"
+      filter="url(#glow)">
+                                                      .#%%@@@@@@@@@@@@@@@@@@@@@@@@%%%%%@@@@@@@@@@@@@@@%-
+</text>
+
+<clipPath id="rowClip21">
+    <rect x="0"
+          y="263.52"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.735s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="271.91"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip21)"
+      filter="url(#glow)">
+                                                       +%%%@@@@@@@@@@@%%%%%######*************###%%%@@@#=
+</text>
+
+<clipPath id="rowClip22">
+    <rect x="0"
+          y="272.64"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.770s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="281.03"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip22)"
+      filter="url(#glow)">
+                                                       .+#%%@@@@@%##****++++++++++++++++=+====+++++*#%@@@#:
+</text>
+
+<clipPath id="rowClip23">
+    <rect x="0"
+          y="281.76"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.805s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="290.15"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip23)"
+      filter="url(#glow)">
+                                                        +%%%%%#**++++++++++++++++==================++*#@@@#.
+</text>
+
+<clipPath id="rowClip24">
+    <rect x="0"
+          y="290.88"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.840s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="299.27"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip24)"
+      filter="url(#glow)">
+                                                       =%%%%%*+==++++++=====================-----=====*@@@@+
+</text>
+
+<clipPath id="rowClip25">
+    <rect x="0"
+          y="300.0"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.875s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="308.39"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip25)"
+      filter="url(#glow)">
+                                                       #@@%#*=--==========================---------===+%@%%%-
+</text>
+
+<clipPath id="rowClip26">
+    <rect x="0"
+          y="309.12"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.910s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="317.51"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip26)"
+      filter="url(#glow)">
+                                                      :%%@%+=----========================----------====#@@@@#
+</text>
+
+<clipPath id="rowClip27">
+    <rect x="0"
+          y="318.24"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.945s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="326.63"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip27)"
+      filter="url(#glow)">
+                                                      +@%%*==-----======================-----------====*%@@@#.
+</text>
+
+<clipPath id="rowClip28">
+    <rect x="0"
+          y="327.36"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="0.980s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="335.75"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip28)"
+      filter="url(#glow)">
+                                                      %@%#+==------=======================---------====+#%%%%=
+</text>
+
+<clipPath id="rowClip29">
+    <rect x="0"
+          y="336.47999999999996"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.015s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="344.87"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip29)"
+      filter="url(#glow)">
+                                                      *@%#+==-----===========================------====+#%%@@#
+</text>
+
+<clipPath id="rowClip30">
+    <rect x="0"
+          y="345.59999999999997"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.050s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="353.99"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip30)"
+      filter="url(#glow)">
+                                                      =@%#+==-----======================---------======+#%%@@#
+</text>
+
+<clipPath id="rowClip31">
+    <rect x="0"
+          y="354.71999999999997"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.085s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="363.11"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip31)"
+      filter="url(#glow)">
+                                                      -%%%+===----============-=======----------========+#%%@#
+</text>
+
+<clipPath id="rowClip32">
+    <rect x="0"
+          y="363.84"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.120s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="372.23"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip32)"
+      filter="url(#glow)">
+                                                      :%@%+==-================---========+++++==+++**+===*%%%*
+</text>
+
+<clipPath id="rowClip33">
+    <rect x="0"
+          y="372.96"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.155s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="381.35"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip33)"
+      filter="url(#glow)">
+                                                      .#@#++++**+++*###**+++========+++*#%%%%%%##%#%%%*==+#%%*
+</text>
+
+<clipPath id="rowClip34">
+    <rect x="0"
+          y="382.08"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.190s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="390.47"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip34)"
+      filter="url(#glow)">
+                                                       -%#+*#####%@@@@@%%##*+++++++++*#%%@@@@@%%%%#####*++**++=.
+</text>
+
+<clipPath id="rowClip35">
+    <rect x="0"
+          y="391.2"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.225s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="399.59"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip35)"
+      filter="url(#glow)">
+                                                       .*#*#%###%%%%%@@@@@%##**+++++*#%%%%####***++===++==*#*++-
+</text>
+
+<clipPath id="rowClip36">
+    <rect x="0"
+          y="400.32"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.260s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="408.71"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip36)"
+      filter="url(#glow)">
+                                                   -***##***#***=**####**##%###****+*##**+=#####**+++++++*=+*+:
+</text>
+
+<clipPath id="rowClip37">
+    <rect x="0"
+          y="409.44"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.295s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="417.83"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip37)"
+      filter="url(#glow)">
+                                                   =#*#*=*#****#*#########**#####****++*#*+#%%%#*#%#**++=++=++
+</text>
+
+<clipPath id="rowClip38">
+    <rect x="0"
+          y="418.55999999999995"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.330s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="426.95"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip38)"
+      filter="url(#glow)">
+                                                    -#%+:.-***#%@%#@@%#*##******+=+**++**####%#*+***+=--=++=+=
+</text>
+
+<clipPath id="rowClip39">
+    <rect x="0"
+          y="427.67999999999995"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.365s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="436.07"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip39)"
+      filter="url(#glow)">
+                                                     :%*  .+++####*###*****++#*+=--+#+==+++++++++===-----====.
+</text>
+
+<clipPath id="rowClip40">
+    <rect x="0"
+          y="436.79999999999995"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.400s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="445.19"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip40)"
+      filter="url(#glow)">
+                                                      +%: .+++++++**+++++++=*%*==---+*=---=====----------=++.
+</text>
+
+<clipPath id="rowClip41">
+    <rect x="0"
+          y="445.91999999999996"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.435s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="454.31"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip41)"
+      filter="url(#glow)">
+                                                       *+  +++==============##++==---*+-----------::-----==:
+</text>
+
+<clipPath id="rowClip42">
+    <rect x="0"
+          y="455.03999999999996"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.470s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="463.43"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip42)"
+      filter="url(#glow)">
+                                                       :*- -++===========++=#*+==-----*=-===----::::-----==
+</text>
+
+<clipPath id="rowClip43">
+    <rect x="0"
+          y="464.15999999999997"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.505s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="472.55"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip43)"
+      filter="url(#glow)">
+                                                        :*:-++===========++**+=---::---+==+===---:::---=+++
+</text>
+
+<clipPath id="rowClip44">
+    <rect x="0"
+          y="473.28"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.540s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="481.67"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip44)"
+      filter="url(#glow)">
+                                                         .=+++=========++**+++==--------=+****++=========++
+</text>
+
+<clipPath id="rowClip45">
+    <rect x="0"
+          y="482.4"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.575s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="490.79"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip45)"
+      filter="url(#glow)">
+                                                           ***++++=++***##+=+**+====**=---++***++=----===*-
+</text>
+
+<clipPath id="rowClip46">
+    <rect x="0"
+          y="491.52"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.610s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="499.91"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip46)"
+      filter="url(#glow)">
+                                                           +#++=======++++++*%#**+++*#*+==---=+++===-===+#.
+</text>
+
+<clipPath id="rowClip47">
+    <rect x="0"
+          y="500.64"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.645s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="509.03"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip47)"
+      filter="url(#glow)">
+                                                           .#*++=======+++++****+++++=++=======+++=====+*+
+</text>
+
+<clipPath id="rowClip48">
+    <rect x="0"
+          y="509.76"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.680s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="518.15"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip48)"
+      filter="url(#glow)">
+                                                            =%*++===++++++***###*++*****++=+++**++=====+*:
+</text>
+
+<clipPath id="rowClip49">
+    <rect x="0"
+          y="518.8799999999999"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.715s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="527.27"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip49)"
+      filter="url(#glow)">
+                                                             *#*++=+++*###******+++++======+#%***=-===+*+
+</text>
+
+<clipPath id="rowClip50">
+    <rect x="0"
+          y="528.0"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.750s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="536.39"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip50)"
+      filter="url(#glow)">
+                                                             .##*++++*#%%#***++++++===--==++++=++=====++.
+</text>
+
+<clipPath id="rowClip51">
+    <rect x="0"
+          y="537.1199999999999"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.785s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="545.51"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip51)"
+      filter="url(#glow)">
+                                                              .*#*++++***##**+=--::..::--====-=======+*:
+</text>
+
+<clipPath id="rowClip52">
+    <rect x="0"
+          y="546.24"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.820s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="554.63"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip52)"
+      filter="url(#glow)">
+                                                               .##*++++++++++====----===--==--======+*:
+</text>
+
+<clipPath id="rowClip53">
+    <rect x="0"
+          y="555.3599999999999"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.855s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="563.75"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip53)"
+      filter="url(#glow)">
+                                                                 +#*+++++++++++=======---==---=====+#+:
+</text>
+
+<clipPath id="rowClip54">
+    <rect x="0"
+          y="564.48"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.890s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="572.87"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip54)"
+      filter="url(#glow)">
+                                                                .:+**+++++++++*******+++===---===+**#*-:.
+</text>
+
+<clipPath id="rowClip55">
+    <rect x="0"
+          y="573.5999999999999"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.925s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="581.99"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip55)"
+      filter="url(#glow)">
+                                                             :-----=**++++++++++++**+====-----==+*+=+#-..     .
+</text>
+
+<clipPath id="rowClip56">
+    <rect x="0"
+          y="582.72"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.960s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="591.11"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip56)"
+      filter="url(#glow)">
+                                                          :--=----===#%*+++++========--------=+*+====#+:..   .....
+</text>
+
+<clipPath id="rowClip57">
+    <rect x="0"
+          y="591.8399999999999"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="1.995s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="600.23"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip57)"
+      filter="url(#glow)">
+                                                       .:===-------=+%%***++++++++======--==+++=-====*#:.         ..
+</text>
+
+<clipPath id="rowClip58">
+    <rect x="0"
+          y="600.9599999999999"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.030s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="609.35"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip58)"
+      filter="url(#glow)">
+                                                    .:----------=--=+%%******++++++++++++++++=---====*%:
+</text>
+
+<clipPath id="rowClip59">
+    <rect x="0"
+          y="610.0799999999999"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.065s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="618.47"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip59)"
+      filter="url(#glow)">
+                                                 .-=----------------=@@#*++********#***+++===---=====#%-
+</text>
+
+<clipPath id="rowClip60">
+    <rect x="0"
+          y="619.1999999999999"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.100s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="627.59"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip60)"
+      filter="url(#glow)">
+                                           ..:::-=-:::::::::::::::::-%%#**++++++++++++===-==========+#%=                  ....
+</text>
+
+<clipPath id="rowClip61">
+    <rect x="0"
+          y="628.3199999999999"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.135s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="636.71"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip61)"
+      filter="url(#glow)">
+                                    .:--::--++=------::::::::.......:*%##**++++++++++===============*%%+                  .--.....
+</text>
+
+<clipPath id="rowClip62">
+    <rect x="0"
+          y="637.4399999999999"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.170s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="645.83"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip62)"
+      filter="url(#glow)">
+                                   :-:::--===--------==:::.....     .=#*****++++++++++=========-===+*%#=.                  :-::..::..
+</text>
+
+<clipPath id="rowClip63">
+    <rect x="0"
+          y="646.56"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.205s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="654.95"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip63)"
+      filter="url(#glow)">
+                                  --::::-==-----:::::-+--+:.        .:*+*****++==++++=======-=--===+#*=-.                 ..:-::..::::
+</text>
+
+<clipPath id="rowClip64">
+    <rect x="0"
+          y="655.68"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.240s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="664.07"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip64)"
+      filter="url(#glow)">
+                                .-=-::::-=----:::::::-=:-=.  .     .. =+++++*++===========-----===*#=-=:.          ..     ...-:::.::.:
+</text>
+
+<clipPath id="rowClip65">
+    <rect x="0"
+          y="664.8"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.275s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="673.19"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip65)"
+      filter="url(#glow)">
+                              :-===-.:::-----::::....:-:=....      .. .++=+++++===-=======----==+#*--=:..         :-:  .. .. :::-:. .:
+</text>
+
+<clipPath id="rowClip66">
+    <rect x="0"
+          y="673.92"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.310s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="682.31"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip66)"
+      filter="url(#glow)">
+                            .--====:...:-----.......:-:.--..       ... .++========-===========+*#+:-=-.           :-:  .:.  .:--.   ..
+</text>
+
+<clipPath id="rowClip67">
+    <rect x="0"
+          y="683.04"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.345s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="691.43"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip67)"
+      filter="url(#glow)">
+                            ---=--=:....:---.  .. ..:=: .---:     ....  .++==================+*#=.:--:.   .....  .--.  .:. .--:.   ...
+</text>
+
+<clipPath id="rowClip68">
+    <rect x="0"
+          y="692.16"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.380s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="700.55"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip68)"
+      filter="url(#glow)">
+                           :------=.....::-:   ..  .-=.  .::--:   .:..   .=+=---===========++**-..---:    ....   :--.  ...:-:.    ....
+</text>
+
+<clipPath id="rowClip69">
+    <rect x="0"
+          y="701.28"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.415s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="709.67"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip69)"
+      filter="url(#glow)">
+                         .--::-----......::.   ..  .-=   .....:-. ....    .===---========++***-..:--:.    . .   .--:   .:-:.       ...
+</text>
+
+<clipPath id="rowClip70">
+    <rect x="0"
+          y="710.4"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.450s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="718.79"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip70)"
+      filter="url(#glow)">
+                        :==--:::---...  ..     ..  .--     .....--:.  .    .=======+++++*****-..::--.     .    .--:    :-:         ...
+</text>
+
+<clipPath id="rowClip71">
+    <rect x="0"
+          y="719.52"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.485s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="727.91"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip71)"
+      filter="url(#glow)">
+                        ......   ..                 ..           ..         ........:::::::::    ...           ...     ..
+</text>
+
+<clipPath id="rowClip72">
+    <rect x="0"
+          y="728.64"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.520s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="737.03"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip72)"
+      filter="url(#glow)">
+    
+</text>
+
+<clipPath id="rowClip73">
+    <rect x="0"
+          y="737.76"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.555s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="746.15"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip73)"
+      filter="url(#glow)">
+    
+</text>
+
+<clipPath id="rowClip74">
+    <rect x="0"
+          y="746.88"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.590s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="755.27"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip74)"
+      filter="url(#glow)">
+    
+</text>
+
+<clipPath id="rowClip75">
+    <rect x="0"
+          y="755.9999999999999"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.625s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="764.39"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip75)"
+      filter="url(#glow)">
+    
+</text>
+
+<clipPath id="rowClip76">
+    <rect x="0"
+          y="765.1199999999999"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.660s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="773.51"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip76)"
+      filter="url(#glow)">
+    
+</text>
+
+<clipPath id="rowClip77">
+    <rect x="0"
+          y="774.2399999999999"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.695s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="782.63"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip77)"
+      filter="url(#glow)">
+    
+</text>
+
+<clipPath id="rowClip78">
+    <rect x="0"
+          y="783.3599999999999"
+          width="0"
+          height="13.12">
+        <animate
+            attributeName="width"
+            from="0"
+            to="760"
+            begin="2.730s"
+            dur="0.320s"
+            fill="freeze"/>
+    </rect>
+</clipPath>
+
+<text x="24"
+      y="791.75"
+      font-family="monospace"
+      font-size="8.39px"
+      font-weight="600"
+      letter-spacing="0"
+      fill="#eeeeee"
+      clip-path="url(#rowClip78)"
+      filter="url(#glow)">
+    
+</text>
+
+<text x="24"
+      y="815.4799999999999"
+      font-family="monospace"
+      font-size="13"
+      fill="#aaaaaa">
+manas@github:~$ whoami Manas
+</text>
+
+<rect x="270"
+      y="802.4799999999999"
+      width="7"
+      height="15"
+      fill="#eeeeee">
+    <animate
+        attributeName="opacity"
+        values="1;0;1"
+        dur="1s"
+        repeatCount="indefinite"/>
+</rect>
+
+</svg>

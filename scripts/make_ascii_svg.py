@@ -8,47 +8,80 @@ INPUT = os.path.join(BASE_DIR, "source-prepped.png")
 OUTPUT = os.path.join(BASE_DIR, "manas-ascii.svg")
 
 # ASCII settings
-COLS = 150
-ART_WIDTH = 760
+COLS = 220
+ART_WIDTH = 820
 
-# ASCII characters from light to dark
+# Sparse-to-dense characters
 RAMP = " .:-=+*#%@"
 
 # Animation settings
-ROW_DELAY = 0.035
-ROW_DURATION = 0.32
+ROW_DELAY = 0.025
+ROW_DURATION = 0.28
+
 
 
 def image_to_ascii(image_path):
-    img = Image.open(image_path).convert("L")
+    from PIL import ImageOps, ImageEnhance
 
-    # Keep terminal characters approximately proportional
-    cell_width = ART_WIDTH / COLS
-    cell_height = cell_width * 1.8
+    original = Image.open(image_path).convert("RGBA")
 
-    rows = max(1, round(img.height / img.width * COLS / 1.8))
+    # Keep the transparent background empty instead of converting it
+    # into a large block of ASCII characters.
+    alpha = original.getchannel("A")
+    rgb = Image.new("RGB", original.size, (0, 0, 0))
+    rgb.paste(original, mask=alpha)
 
-    img = img.resize((COLS, rows))
+    gray = ImageOps.grayscale(rgb)
 
-    pixels = list(img.getdata())
+    # Improve tonal separation and detail.
+    gray = ImageOps.autocontrast(gray, cutoff=0.5)
+    gray = ImageEnhance.Contrast(gray).enhance(1.25)
+    gray = ImageEnhance.Sharpness(gray).enhance(1.8)
+
+    # Resize while preserving the source image's aspect ratio.
+    width = COLS
+    height = max(1, round(original.height / original.width * width / 1.8))
+
+    gray = gray.resize((width, height), Image.Resampling.LANCZOS)
+    alpha = alpha.resize((width, height), Image.Resampling.LANCZOS)
+
+    pixels = list(gray.getdata())
+    alpha_pixels = list(alpha.getdata())
 
     lines = []
 
-    for y in range(rows):
-        line = ""
+    for y in range(height):
+        line = []
 
-        for x in range(COLS):
-            value = pixels[y * COLS + x]
+        for x in range(width):
+            i = y * width + x
+            brightness = pixels[i]
+            opacity = alpha_pixels[i] / 255
 
-            # Darker pixels → darker ASCII character
-            index = int((255 - value) / 256 * len(RAMP))
-            index = min(index, len(RAMP) - 1)
+            # Leave transparent background pixels empty.
+            if opacity < 0.15:
+                line.append(" ")
+                continue
 
-            line += RAMP[index]
+            # For a dark terminal, darker parts of the subject
+            # receive denser characters.
+            darkness = 255 - brightness
+            index = int(darkness / 255 * (len(RAMP) - 1))
 
-        lines.append(line.rstrip())
+            # Blend very transparent edge pixels toward empty space.
+            char = RAMP[index]
+            if opacity < 0.75:
+                char = " " if opacity < 0.4 else char
 
-    return lines, rows, cell_height
+            line.append(char)
+
+        lines.append("".join(line).rstrip())
+
+    cell_width = ART_WIDTH / COLS
+    cell_height = cell_width * 1.8
+
+    return lines, height, cell_height
+
 
 
 def make_svg(lines, rows, cell_height):
@@ -59,7 +92,7 @@ def make_svg(lines, rows, cell_height):
     art_height = rows * cell_height
     height = terminal_header + top_padding + art_height + bottom_padding
 
-    font_size = max(4, cell_height * 0.92)
+    font_size = max(3, cell_height * 0.72)
 
     svg = []
 
@@ -81,7 +114,7 @@ def make_svg(lines, rows, cell_height):
     </linearGradient>
 
     <filter id="glow">
-        <feGaussianBlur stdDeviation="1.4" result="blur"/>
+        <feGaussianBlur stdDeviation="0.35" result="blur"/>
         <feMerge>
             <feMergeNode in="blur"/>
             <feMergeNode in="SourceGraphic"/>
@@ -117,7 +150,7 @@ manas@github: ~/profile
 
     svg.append(
         f'''
-<text x="24"
+<text x="50"
       y="{title_y}"
       font-family="monospace"
       font-size="14"
@@ -133,6 +166,9 @@ manas@github: ~$ ./portrait.sh
     for row, line in enumerate(lines):
 
         y = start_y + row * cell_height
+        # Center each ASCII row horizontally
+        text_x = (ART_WIDTH - len(line) * font_size * 0.60) / 2
+        text_x = max(10, text_x)
 
         delay = row * ROW_DELAY
         duration = ROW_DURATION
@@ -163,7 +199,7 @@ manas@github: ~$ ./portrait.sh
     </rect>
 </clipPath>
 
-<text x="24"
+<text x="{text_x:.2f}"
       y="{y:.2f}"
       font-family="monospace"
       font-size="{font_size:.2f}px"
